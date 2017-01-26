@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="nttdata.com.approval.controller.BaseController">
+
+	<MessagePage id="page" title="{i18n&gt;notFoundTitle}" text="{i18n&gt;notFoundText}" icon="{sap-icon://document}" description="" showNavButton="{device&gt;/system/phone}" navButtonPress="onNavBack">
+	</MessagePage>
+
+</mvc:View>

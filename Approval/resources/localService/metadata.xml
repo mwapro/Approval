@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="ZMWA_MAO_2_SRV_01" xml:lang="de" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="ZMWA_WFL_INBOX" sap:content-version="1">
+				<Key><PropertyRef Name="Vbeln"/></Key><Property Name="Task" Type="Edm.String" Nullable="false" MaxLength="14" sap:label="Aufgabe" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="Vbeln" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Vertriebsbeleg" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Auart" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Verk.belegart" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Augru" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Auftragsgrund" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Vkorg" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Verkaufsorg." sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="Vtweg" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Vertriebsweg" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="Spart" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Sparte" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="Bezei" Type="Edm.String" Nullable="false" MaxLength="35" sap:label="Text in Länge 35" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Bezei2" Type="Edm.String" Nullable="false" MaxLength="35" sap:label="Text in Länge 35" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Kunnr" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Auftraggeber" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityContainer Name="ZMWA_MAO_2_SRV_01_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx"><EntitySet Name="ZMWA_WFL_INBOXSet" EntityType="ZMWA_MAO_2_SRV_01.ZMWA_WFL_INBOX" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:content-version="1"/></EntityContainer><atom:link rel="self" href="http://nddvecd0.ndd-sap.os.itelligence.de:8010/sap/opu/odata/sap/ZMWA_MAO_2_SRV_01/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/><atom:link rel="latest-version" href="http://nddvecd0.ndd-sap.os.itelligence.de:8010/sap/opu/odata/sap/ZMWA_MAO_2_SRV_01/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/></Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

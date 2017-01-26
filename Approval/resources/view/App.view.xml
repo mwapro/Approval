@@ -1,0 +1,4 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="nttdata.com.approval.controller.App" displayBlock="true"
+	busy="{appView/busy}" busyIndicatorDelay="{appView/delay}">
+	<SplitApp id="idAppControl"/>
+</mvc:View>
